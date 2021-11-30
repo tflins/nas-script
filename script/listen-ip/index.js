@@ -6,7 +6,6 @@ const { sendEmail } = require('../../utils/email')
 
 const __path = resolve(join(__dirname, `./old-ip`))
 
-
 function start() {
   fs.writeFileSync(__path, getIpv4Ip())
 
